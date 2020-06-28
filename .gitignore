@@ -2,4 +2,3 @@
 *.iml
 .project
 test-output/
-target/:
