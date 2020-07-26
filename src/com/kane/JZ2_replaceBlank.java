@@ -40,6 +40,7 @@ public class JZ2_replaceBlank {
         String str = "We are Happy!";
         StringBuffer stringBuffer  = new StringBuffer();
         stringBuffer.append(str);
+
         // StringBuffer stringBuffer  = new StringBuffer(str);
         String str_new = replaceSpace(stringBuffer);
         System.out.println(str_new);
