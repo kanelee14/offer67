@@ -19,8 +19,9 @@ class TreeNode{
     TreeNode left;
     TreeNode right;
     TreeNode(int x){
-        val  = x;
+        this.val  = x;
     }
+
 }
 
 public class JZ4_reConstructBinaryTree {
@@ -52,8 +53,12 @@ public class JZ4_reConstructBinaryTree {
 
         int index = map.get(pre[preStart]);
         int leftNum = index - inStart;
-        treeNode.left = reConstructBinaryTree(pre, preStart + 1,preStart + leftNum + 1,in, inStart, index , map);
-        treeNode.right = reConstructBinaryTree(pre, preStart + leftNum + 1 , preEnd,in, index + 1, preEnd, map);
+        /*
+          treeNode.left = reConstructBinaryTree(pre, preStart + 1,preStart + leftNum + 1,in, inStart, index , map);
+          treeNode.right = reConstructBinaryTree(pre, preStart + leftNum + 1 , preEnd,in, index + 1, preEnd, map);
+         */
+        reConstructBinaryTree(pre, preStart + 1,preStart + leftNum + 1,in, inStart, index , map);
+        reConstructBinaryTree(pre, preStart + leftNum + 1 , preEnd,in, index + 1, preEnd, map);
         System.out.println(treeNode.val);
         return treeNode;
     }
@@ -62,7 +67,7 @@ public class JZ4_reConstructBinaryTree {
         int[] pre = {1,2,4,7,3,5,6,8};
         int[] in = {4,7,2,1,5,3,8,6};
         JZ4_reConstructBinaryTree jz4_reConstructBinaryTree = new JZ4_reConstructBinaryTree();
-        TreeNode treeNode = jz4_reConstructBinaryTree.reConstructBinaryTree(pre, in);
+        jz4_reConstructBinaryTree.reConstructBinaryTree(pre, in);
 
     }
 }

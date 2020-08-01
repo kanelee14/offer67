@@ -10,7 +10,7 @@ package com.kane;
  **/
 
 public class JZ1_findNumberIn2DArray {
-    public  static boolean Find(int target, int [][] array){
+    public  static boolean find(int target, int [][] array){
         if(array.length > 0){
             int rows = array.length;
             int columns = array[0].length - 1;
@@ -33,7 +33,7 @@ public class JZ1_findNumberIn2DArray {
     public static void main(String[] args){
         int array[][]={{1,2,3},{4,5,6},{7,9,10}};
         int target = 6;
-        Boolean result = Find(target,array);
+        Boolean result = find(target,array);
         System.out.println(result);
     }
 }
