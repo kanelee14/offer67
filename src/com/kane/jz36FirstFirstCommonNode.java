@@ -7,7 +7,7 @@ package com.kane;
  * @creater: 2020-09-03 17:20
  **/
 
-public class jz36_firstFirstCommonNode {
+public class jz36FirstFirstCommonNode {
 
     /***
     * @Description:

@@ -11,7 +11,7 @@ package com.kane;
  * @creater: 2020-08-28 16:07
  **/
 
-public class JZ39_isBalancedTree {
+public class Jz39IsBalancedTree {
 
     private boolean isBalanced = true;
     public boolean isBalancedTree(TreeNode root){

@@ -11,7 +11,7 @@ package com.kane;
  * @creater: 2020-08-28 16:05
  **/
 
-public class JZ38_treeDepth {
+public class Jz38TreeDepth {
 
     public int treeDepth(TreeNode root){
         if(root == null){

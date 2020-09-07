@@ -12,7 +12,7 @@ package com.kane;
 //将num1[0],num2[0]设置为返回结果
 
 
-public class JZ40_findNumsAppearOnce {
+public class Jz40FindNumsAppearOnce {
 
     public void findNumsAppearsOnce(int [] array, int num1[] , int num2[]){
 

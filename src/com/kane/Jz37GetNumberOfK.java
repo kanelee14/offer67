@@ -10,7 +10,7 @@ package com.kane;
  * @creater: 2020-08-28 16:02
  **/
 
-public class JZ37_getNumberOfK {
+public class Jz37GetNumberOfK {
 
     public int getNumberOfK(int [] array, int k){
 
