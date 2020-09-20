@@ -16,16 +16,7 @@ package com.kane;
  * @author: Mr.kane
  * @creater: 2020-09-13 14:48
  **/
-public class TreeLinkNode{
-    int val;
-    TreeLinkNode left = null;
-    TreeLinkNode right = null;
-    TreeLinkNode next = null;
 
-    TreeLinkNode(int val){
-        this.val = val;
-    }
-}
 
 public class Jz57GetNext {
 

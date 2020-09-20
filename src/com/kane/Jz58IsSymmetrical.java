@@ -15,7 +15,7 @@ public class Jz58IsSymmetrical {
 
     public boolean isSymmetrical(TreeNode pRoot){
 
-        if(pRoot = null){
+        if(pRoot == null){
             return true;
         }
         return comRoot(pRoot.left, pRoot.right);
